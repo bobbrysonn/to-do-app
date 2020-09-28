@@ -1,0 +1,85 @@
+:root {
+
+    font-size: 20px;
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
+    color: #1F1F1F;
+}
+
+.container {
+
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+.form-container {
+
+    display: flex;
+    width: 100%;
+}
+
+.input-text {
+
+    flex: 8;
+    font-size: .7rem;
+    padding: .6rem .75rem;
+    border: 1px solid #CECECE;
+    outline: none;
+    font-weight: 400;
+    max-width: 80%;
+}
+
+.input-text::placeholder {
+
+    color: rgb(17, 17, 17);
+    opacity: .8;
+}
+
+.input-submit {
+
+    flex: 2;
+    border: none;
+    background: #038203;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    width: 20%;
+    outline: none;
+}
+
+.todo-item {
+
+    list-style-type: none;
+    padding: .85rem 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.todo-item input {
+
+    margin-right: .75rem;
+}
+
+.todo-item button {
+
+    background: #D35E0F;
+    color: #F5F5F5;
+    border: 1px solid #D35E0F;
+    padding: .15rem .35rem;
+    cursor: pointer;
+    float: right;
+    outline: none
+}
+
